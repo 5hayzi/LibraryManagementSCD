@@ -5,6 +5,7 @@ public class BookManagement extends javax.swing.JFrame {
     DbHandler data;
 
     public BookManagement() {
+        data = new DbHandler();
         initComponents();
     }
 
@@ -148,11 +149,11 @@ public class BookManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_isssueBookActionPerformed
 
     private void showUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_showUserActionPerformed
-        data.displayUser();
+        data.showUsers();
     }//GEN-LAST:event_showUserActionPerformed
 
     private void showBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_showBookActionPerformed
-        data.displayBook();
+        data.showBooks();
     }//GEN-LAST:event_showBookActionPerformed
 
     private void updateBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateBookActionPerformed
@@ -170,7 +171,7 @@ public class BookManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_returnBookActionPerformed
 
     private void showIssueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_showIssueActionPerformed
-        data.displayIssue();
+        data.showIssuedBooks();
     }//GEN-LAST:event_showIssueActionPerformed
 
     private void addbookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addbookActionPerformed

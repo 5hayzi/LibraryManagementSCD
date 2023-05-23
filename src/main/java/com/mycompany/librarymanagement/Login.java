@@ -53,19 +53,15 @@ public class Login extends javax.swing.JFrame {
             String username = usernameField.getText();
             String password = new String(passwordField.getPassword());
             
-            JFrame BookManagement = new BookManagement();
-            BookManagement.setVisible(true);
-            setVisible(false);
-            
-//                if (user.validateLogin(username, password)) {
-//                    JOptionPane.showMessageDialog(Login.this, "Login successful!");
-//                    JFrame BookManagement = new BookManagement();
-//                    BookManagement.setVisible(true);
-//                    setVisible(false);
-//                dispose();
-//                } else {
-//                    JOptionPane.showMessageDialog(Login.this, "Invalid username or password!");
-//                }
+                if (user.validateLogin(username, password)) {
+                    JOptionPane.showMessageDialog(Login.this, "Login successful!");
+                    JFrame BookManagement = new BookManagement();
+                    BookManagement.setVisible(true);
+                    setVisible(false);
+                dispose();
+                } else {
+                    JOptionPane.showMessageDialog(Login.this, "Invalid username or password!");
+                }
         
     }//GEN-LAST:event_LoginBtnActionPerformed
 

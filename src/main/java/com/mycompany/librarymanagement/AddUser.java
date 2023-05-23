@@ -167,7 +167,7 @@ public class AddUser extends javax.swing.JFrame {
         String userID = userIdField.getText();
         String gender = genderBox.getItemAt(WIDTH);
         if(userPass.getText().equals(confirmUserPass.getText())){
-            libCon.addUser(uName, userID, uPass, confirmPass, gender );
+            libCon.addUser(uName, userID, uPass, gender );
             user.registerUser(userID, uPass);
         }
         else{

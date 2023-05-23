@@ -134,7 +134,7 @@ public class AddBooks extends javax.swing.JFrame {
 
     private void addBookBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addBookBtnActionPerformed
         String bName = bookNameField.getText();
-        int bId = Integer.parseInt( bookIDField.getText());
+        String bId = bookIDField.getText();
         String bGenre = bookGenreField.getText();
         int bCopy = Integer.parseInt( bookCopyField.getText());
         

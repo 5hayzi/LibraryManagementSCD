@@ -159,7 +159,7 @@ LibraryController libCon = new LibraryController();
     private void IssueBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IssueBookActionPerformed
        String sName = StudentNameField.getText();
        String sId = StudentIdField.getText();
-       int issueDate = Integer.parseInt(date.getText()+"-"+month.getText()+"-"+year.getText());
+       int issueDate = Integer.parseInt(date.getText()+month.getText()+year.getText());
        String bId = bookIDField.getText();
        
        libCon.issueBook(sName, sId, issueDate, bId);
