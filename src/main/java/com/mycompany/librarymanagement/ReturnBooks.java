@@ -8,9 +8,6 @@ import javax.swing.JFrame;
 public class ReturnBooks extends javax.swing.JFrame {
     LibraryController libCon = new LibraryController();
 
-    /**
-     * Creates new form ReturnBooks
-     */
     public ReturnBooks() {
         initComponents();
     }

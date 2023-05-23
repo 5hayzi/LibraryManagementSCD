@@ -2,8 +2,6 @@
 package com.mycompany.librarymanagement;
 
 import javax.swing.JFrame;
-
-
 public class IssueBooks extends javax.swing.JFrame {
 LibraryController libCon = new LibraryController();
 

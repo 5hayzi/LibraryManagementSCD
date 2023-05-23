@@ -9,8 +9,6 @@ public class LibraryController {
     LibraryController(){
         data = new DbHandler();
     }
-    
-    
     public void addbook(String bName, String bId, int bCopies, String bGenre){
         data.addBook(bName, bId, bCopies, bGenre);
     }

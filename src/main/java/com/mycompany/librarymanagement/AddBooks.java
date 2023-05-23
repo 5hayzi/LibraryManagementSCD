@@ -11,7 +11,6 @@ import javax.swing.JFrame;
 public class AddBooks extends javax.swing.JFrame {
     LibraryController libCon = new LibraryController();
 
-    
     public AddBooks() {
         initComponents();
     }

@@ -150,7 +150,7 @@ public class AddUser extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void genderBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_genderBoxActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_genderBoxActionPerformed
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

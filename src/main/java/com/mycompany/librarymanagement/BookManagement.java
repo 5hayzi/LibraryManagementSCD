@@ -8,7 +8,6 @@ public class BookManagement extends javax.swing.JFrame {
         data = new DbHandler();
         initComponents();
     }
-
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {

@@ -25,7 +25,6 @@ public class User {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return false;
     }
 
