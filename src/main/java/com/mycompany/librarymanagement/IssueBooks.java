@@ -5,7 +5,6 @@ import javax.swing.JFrame;
 public class IssueBooks extends javax.swing.JFrame {
 LibraryController libCon = new LibraryController();
 
-
     public IssueBooks() {
         initComponents();
     }

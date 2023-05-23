@@ -3,10 +3,6 @@ package com.mycompany.librarymanagement;
 
 import java.io.*;
 
-/**
- *
- * @author 5hayzi
- */
 public class User {
     private static final String FILE_PATH = "users.txt";
   

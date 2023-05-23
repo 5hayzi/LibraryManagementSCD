@@ -3,7 +3,6 @@ import javax.swing.JFrame;
 
 public class BookManagement extends javax.swing.JFrame {
     DbHandler data;
-
     public BookManagement() {
         data = new DbHandler();
         initComponents();

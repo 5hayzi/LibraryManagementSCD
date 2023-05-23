@@ -1,7 +1,6 @@
 package com.mycompany.librarymanagement;
 
 import javax.swing.JOptionPane;
-
 public class LibraryController {
     DbHandler data;
     private int mCurrentIndex;
