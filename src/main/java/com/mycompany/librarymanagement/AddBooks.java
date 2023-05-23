@@ -138,7 +138,7 @@ public class AddBooks extends javax.swing.JFrame {
         
         libCon.addbook(bName, bId, bCopy, bGenre);
     }//GEN-LAST:event_addBookBtnActionPerformed
-
+ 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
         JFrame BookManagement = new BookManagement();
                 BookManagement.setVisible(true);

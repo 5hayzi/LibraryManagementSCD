@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author 5hayzi
- */
+ */ 
 public class AddUser extends javax.swing.JFrame {
  LibraryController libCon = new LibraryController();
  User user = new User();
